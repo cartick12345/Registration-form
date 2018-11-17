@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    background-image: url(../Images/flying%20birds%20logo.jpg);
+    background-repeat: round;
+    text-align: center;
+    height: 700px;
+}
+.regform{
+    width:800px;
+    background-color: brown;
+    margin: 0px auto;
+    padding: 10px;
+}
+fieldset{
+    padding: 10px;
+    border: 0px;
+    border-top: 2px solid white;
+}
+.main{
+    width: 48%;
+    float: left;
+    border-right: 2px solid white;
+    padding-right: 15px;
+        
+}
+.main1{
+    width: 48%;
+    float: right;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 0px 0px 10px blue;
+    text-align: left;
+    
+}
+.input1{
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px black;
+    padding: 3px;
+
+}
+input[type="email"]{
+    width:100px;
+    transition: width 2s;
+}
+input[type="email"]:hover{
+    width:300px;
+    box-shadow: 0px 0px 20px blue;
+}
+input[type="datetime-local"]{
+    width:180px;
+}
+legend{
+    padding: 5px 10px;
+    background: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 20px #2499c0;
+}
+.input{
+    width:350px;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.left{
+    width: 48%;
+    padding: 10px;
+    border-right: 2px solid white;
+    float: left;
+    text-align: right;
+}
+h4{
+    padding: 5px;
+    color: white;
+}
+.right{
+    width: 47%;
+    float: right;
+    text-align: left;
+    padding-top: 5px;
+    color:whitesmoke;
+    text-shadow: 0px 0px 10px yellow;
+    text-transform: capitalize;
+}
+select{
+    width: 100px;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 5px; 
+}
+input[type="file"]{
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    margin-left: 2px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+@keyframes example{
+    from{ background-color: chartreuse;}
+    to{background-color: darkgreen;}
+}
+button{
+    width: 25%;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    text-shadow: 0px 0px 10px;
+    
+}
+button:hover{
+    animation-name: example;
+    animation-duration: 4s;
+}
