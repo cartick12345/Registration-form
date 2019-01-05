@@ -1,0 +1,17 @@
+<div class="container">
+    <table style = "width:100%">
+    <th>S.No</th>
+    <th>First Name</th>
+    <th>last Name</th>
+    <th>Email</th>
+    <th>Password</th>
+    <tr *ngFor = "let arr of displayArr; index as i">
+        <td>{{i+1}}</td>
+        <td>{{arr.fname}}</td>
+        <td>{{arr.lname}}</td>
+        <td>{{arr.email}}</td>
+        <td>{{arr.pwd | asterik}}</td>
+    </tr>
+</table>
+</div>
+
